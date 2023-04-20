@@ -1,0 +1,44 @@
+@model Service
+
+<h3 class="mt-4 mb-4">Add Service for Vehicle</h3>
+
+<form asp-action="CreateService">
+
+    <input type="hidden" asp-for="VehicleId" class="form-control"/>
+
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+    <div class="form-group">
+        <label asp-for="EmployeeName" class="control-label"></label>
+        <textarea rows="1" asp-for="EmployeeName" class="form-control"></textarea>
+        <span asp-validation-for="EmployeeName" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="InvoiceDescription" class="control-label"></label>
+        <textarea rows="5" asp-for="InvoiceDescription" class="form-control"></textarea>
+        <span asp-validation-for="InvoiceDescription" class="text-danger"></span>
+    </div>
+
+    <div class="row">
+        <div class="form-group col-6">
+            <label asp-for="VehicleMilage" class="control-label"></label>
+            <textarea rows="1" asp-for="VehicleMilage" class="form-control"></textarea> 
+            <span asp-validation-for="VehicleMilage" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="form-group col-6">
+            <label asp-for="InvoiceCost" class="control-label"></label>
+            <textarea rows="1" asp-for="InvoiceCost" class="form-control"></textarea>
+            <span asp-validation-for="InvoiceCost" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <input type="submit" value="Add Service" class="btn btn-primary"/>
+        <a class="btn btn-secondary" asp-action="Index">Cancel</a>
+    </div>
+    
+</form>

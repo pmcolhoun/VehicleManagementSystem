@@ -1,0 +1,8 @@
+C:\Users\peter\Documents\Assignment-VMS-template\VMS.Data\bin\Debug\netcoreapp3.1\VMS.Data.deps.json
+C:\Users\peter\Documents\Assignment-VMS-template\VMS.Data\bin\Debug\netcoreapp3.1\VMS.Data.dll
+C:\Users\peter\Documents\Assignment-VMS-template\VMS.Data\bin\Debug\netcoreapp3.1\VMS.Data.pdb
+C:\Users\peter\Documents\Assignment-VMS-template\VMS.Data\obj\Debug\netcoreapp3.1\VMS.Data.csprojAssemblyReference.cache
+C:\Users\peter\Documents\Assignment-VMS-template\VMS.Data\obj\Debug\netcoreapp3.1\VMS.Data.AssemblyInfoInputs.cache
+C:\Users\peter\Documents\Assignment-VMS-template\VMS.Data\obj\Debug\netcoreapp3.1\VMS.Data.AssemblyInfo.cs
+C:\Users\peter\Documents\Assignment-VMS-template\VMS.Data\obj\Debug\netcoreapp3.1\VMS.Data.dll
+C:\Users\peter\Documents\Assignment-VMS-template\VMS.Data\obj\Debug\netcoreapp3.1\VMS.Data.pdb
